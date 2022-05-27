@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link
+        rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      />
+        <title>Weather Dashboard</title>
+</head>
+<body>
+        <div class="row">
+        <header>
+                <h1>Weather Dashboard</h1>
+        </header>
+        <section class="col-2 search-section">
+                <div class="row">
+                        <div class="form">
+                        <h2 class="col-12 title mar-t">Search for a City</h2>
+                        <input type="text" placeholder="City Name" class="col-12 mar-t" id="searchbar"></input>
+                        <button class="col-12 mar-t" id="search-btn">Search</button>
+                        </div>
+                        <div class="col-12 mar-t">Search History</div>
+                </div>
+        </section>
+        <section class="col-9 display-weather">
+                <div class="weather-now">
+                        <h2 class="title" id="city-name">CityName + Date </h2><span id="icon0"></span>
+                        <p>Temp: <span id="temp0"></span> °F </p>
+                        <p>Wind: <span id="wind0"></span> MPH</p>
+                        <p>Humidity: <span id="humidity0"></span> %</p>
+                        <p>UV Index: <span id="UV0"></span></p>
+                </div>
+                <div>
+                        <h2 class="title mar-t">5-Day
+                                Forecast</h2>
+                        <div class="row" id="future-weather">
+                                <div class="future-forecast">
+                                        <h3>date</h3>
+                                        <span id="icon1"></span>
+                                        <p> Temp: <span id="temp1"></span></p>
+                                        <p>Wind: <span id="wind1"></span> </p>
+                                        <p>Humidity: <span id="humidity1"></span></p>
+                                </div>
+                                <div class="future-forecast">
+                                        <h3>date</h3>
+                                        <span id="icon2"></span>
+                                        <p> Temp: <span id="temp2"></span></p>
+                                        <p>Wind: <span id="wind2"></span> </p>
+                                        <p>Humidity: <span id="humidity2"></span></p>
+                                </div>
+                                <div class="future-forecast">
+                                        <h3>date</h3>
+                                        <span id="icon3"></span>
+                                        <p> Temp: <span id="temp3"></span></p>
+                                        <p>Wind: <span id="wind3"></span> </p>
+                                        <p>Humidity: <span id="humidity3"></span></p>
+                                </div>
+                                <div class="future-forecast">
+                                        <h3>date</h3>
+                                        <span id="icon4"></span>
+                                        <p> Temp: <span id="temp4"></span></p>
+                                        <p>Wind: <span id="wind4"></span> </p>
+                                        <p>Humidity: <span id="humidity4"></span></p>
+                                </div>
+                                <div class="future-forecast">
+                                        <h3>date</h3>
+                                        <span id="icon5"></span>
+                                        <p> Temp: <span id="temp5"></span></p>
+                                        <p>Wind: <span id="wind5"></span> </p>
+                                        <p>Humidity: <span id="humidity5"></span></p>
+                                </div>
+                        </div>
+                </div>
+
+        </section>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="./assets/js/script.js"></script>
+</div>
+</body>
+</html>

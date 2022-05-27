@@ -1,0 +1,53 @@
+header {
+        background-image: linear-gradient(to right, rgb(59, 109, 195), rgb(35,6,86));
+        color: white;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 15px;
+}
+.search-section {
+        margin-left: 3%;
+}
+.title {
+        font-weight: bold;
+        font-size: larger;
+}
+.mar-t {
+        margin-top: 15px;
+}
+ul {
+        list-style: none;
+}
+.weather-now {
+        border: solid 1px;
+        padding-left: 15px;
+}
+input {
+        border-radius: 5px;
+        border-width: 1px;
+        border-color: gray;
+}
+#search-btn {
+        border-radius: 5px;
+        background-color: rgb(90, 162, 233);
+        color: white;
+        border: none;
+        margin-bottom: 15px;
+}
+.form {
+        border-bottom: solid 1px gray;
+}
+#future-weather {
+        display: flex;
+        justify-content: space-around;
+}
+.future-forecast {
+        background: rgb(51,71, 90);
+        color: white;
+        width: 18%;
+        padding: 5px 20px 10px 5px;
+        margin:0
+}
+.future-forecast h3 {
+        font-size: larger;
+}
