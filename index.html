@@ -23,13 +23,15 @@
                         <input type="text" placeholder="City Name" class="col-12 mar-t" id="searchbar"></input>
                         <button class="col-12 mar-t" id="search-btn">Search</button>
                         </div>
-                        <div class="col-12 mar-t">Search History</div>
+                        <div class="col-12 mar-t" id="searchHistory">
+
+                        </div>
                 </div>
         </section>
-        <section class="col-9 display-weather">
+        <section class="col-9 display-weather" id="display-off">
                 <div class="weather-now">
-                        <h2 class="title" id="city-name">CityName + Date </h2><span id="icon0"></span>
-                        <p>Temp: <span id="temp0"></span> °F </p>
+                        <h2 class="title" id="city-name">CityName</h2> <span class="title" id=date0></span><span class="title" id="icon0"></span>
+                        <p>Temp: <span id="temp0"></span> °F</p>
                         <p>Wind: <span id="wind0"></span> MPH</p>
                         <p>Humidity: <span id="humidity0"></span> %</p>
                         <p>UV Index: <span id="UV0"></span></p>
@@ -39,45 +41,46 @@
                                 Forecast</h2>
                         <div class="row" id="future-weather">
                                 <div class="future-forecast">
-                                        <h3>date</h3>
+                                        <h3 id="date1"></h3>
                                         <span id="icon1"></span>
-                                        <p> Temp: <span id="temp1"></span></p>
-                                        <p>Wind: <span id="wind1"></span> </p>
-                                        <p>Humidity: <span id="humidity1"></span></p>
+                                        <p> Temp: <span id="temp1"></span> °F</p>
+                                        <p>Wind: <span id="wind1"></span> MPH</p>
+                                        <p>Humidity: <span id="humidity1"></span>%</p>
                                 </div>
                                 <div class="future-forecast">
-                                        <h3>date</h3>
+                                        <h3 id="date2"></h3>
                                         <span id="icon2"></span>
-                                        <p> Temp: <span id="temp2"></span></p>
-                                        <p>Wind: <span id="wind2"></span> </p>
-                                        <p>Humidity: <span id="humidity2"></span></p>
+                                        <p> Temp: <span id="temp2"></span> °F</p>
+                                        <p>Wind: <span id="wind2"></span> MPH</p>
+                                        <p>Humidity: <span id="humidity2"></span> %</p>
                                 </div>
                                 <div class="future-forecast">
-                                        <h3>date</h3>
+                                        <h3 id="date3"></h3>
                                         <span id="icon3"></span>
-                                        <p> Temp: <span id="temp3"></span></p>
-                                        <p>Wind: <span id="wind3"></span> </p>
-                                        <p>Humidity: <span id="humidity3"></span></p>
+                                        <p> Temp: <span id="temp3"></span> °F</p>
+                                        <p>Wind: <span id="wind3"></span> MPH</p>
+                                        <p>Humidity: <span id="humidity3"></span> %</p>
                                 </div>
                                 <div class="future-forecast">
-                                        <h3>date</h3>
+                                        <h3 id="date4"></h3>
                                         <span id="icon4"></span>
-                                        <p> Temp: <span id="temp4"></span></p>
-                                        <p>Wind: <span id="wind4"></span> </p>
-                                        <p>Humidity: <span id="humidity4"></span></p>
+                                        <p> Temp: <span id="temp4"></span> °F</p>
+                                        <p>Wind: <span id="wind4"></span> MPH</p>
+                                        <p>Humidity: <span id="humidity4"></span> %</p>
                                 </div>
                                 <div class="future-forecast">
-                                        <h3>date</h3>
+                                        <h3 id="date5"></h3>
                                         <span id="icon5"></span>
-                                        <p> Temp: <span id="temp5"></span></p>
-                                        <p>Wind: <span id="wind5"></span> </p>
-                                        <p>Humidity: <span id="humidity5"></span></p>
+                                        <p> Temp: <span id="temp5"></span> °F</p>
+                                        <p>Wind: <span id="wind5"></span> MPH</p>
+                                        <p>Humidity: <span id="humidity5"></span> %</p>
                                 </div>
                         </div>
                 </div>
 
         </section>
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
         <script src="./assets/js/script.js"></script>
 </div>
 </body>
